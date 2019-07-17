@@ -11,8 +11,11 @@ for i in a:
                 c=0
         else:
             pass
-p=(sorted(set(l)))
-print(' '.join(p))
+if l==[]:
+    print("unique")
+else:
+    p=(sorted(set(l)))
+    print(' '.join(p))
     
     
   
