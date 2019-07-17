@@ -1,5 +1,5 @@
 n=input()
-a=input()
+a=input().split()
 l=[]
 for i in a:
     c=0
