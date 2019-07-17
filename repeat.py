@@ -11,7 +11,7 @@ for i in a:
                 c=0
         else:
             pass
-print(sorted(set(l)))
+print(sorted(set(''.join(l))))
     
     
   
