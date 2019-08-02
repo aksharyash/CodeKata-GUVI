@@ -9,6 +9,6 @@ for i in a:
             c+=1
         else:
             pass
-        if c>=2:
-            b.append(i)
+    if c>=2:
+        b.append(i)
 print(' '.join([x for x in a if x not in b]))
