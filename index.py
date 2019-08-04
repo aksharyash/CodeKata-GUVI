@@ -6,4 +6,7 @@ for i in lst:
     if int(i)==c:
         arr.append(i)
     c+=1
-print(' '.join(sorted(arr)))   
+if arr==[]:
+    print('-1')
+else:
+    print(' '.join(sorted(arr))) 
