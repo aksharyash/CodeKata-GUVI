@@ -7,6 +7,6 @@ for i in lst:
         arr.append(i)
     c+=1
 if arr==[]:
-    print('-1')
+    print(-1)
 else:
     print(' '.join(sorted(arr))) 
