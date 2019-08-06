@@ -1,21 +1,12 @@
-n=input()
-a=input().split()
-l=[]
-for i in a:
-    c=0
-    for j in a:
-        if i==j:
-            c+=1
-            if c>=2:
-                l.append(j)
-                c=0
-        else:
-            pass
-if l==[]:
-    print("unique")
-else:
-    p=(sorted(set(l)))
-    print(' '.join(p))
+n=int(input())
+inp=list(input().split())
+str=""
+for i in inp:
+    if i in str:
+        print(i)
+        break
+    else:
+        str=str+i
     
     
   
