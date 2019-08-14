@@ -1,4 +1,4 @@
-,x=map(int,input().split())
+h,x=map(int,input().split())
 lst=[]
 my=[]
 for i in range(h):
